@@ -1,6 +1,24 @@
 @import "https://designmodo.github.io/Flat-UI/dist/css/flat-ui.min.css";
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
 @import "https://daneden.github.io/animate.css/animate.min.css";
+
+#bandiera {
+    width: 2em;
+    height: 2em;
+    border-radius: 3px;
+    margin-top: 1.2em;
+}
+
+#contatto {
+  width: 100%;
+}
+
+#bandieraLink {
+  margin-left: 93%;
+}
+
+
+
 /*-------------------------------*/
 /*           VARIABLES           */
 /*-------------------------------*/
@@ -385,11 +403,13 @@ body b {
 
 #uppertext{
   margin-top: -1.49em;
-  text-align: center;
-  font-size: 2em;
-  position: fixed;
-  width: 100%;
-  z-index: 2;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 2em;
+    position: fixed;
+    width: 60%;
+    z-index: 2;
 }
 
 #upperbar{
@@ -404,6 +424,7 @@ body b {
 .page-header{
   padding-bottom: 0.3em;
   margin: 1.5em 0 0.75em;
+  text-align: center;
 }
 
 .lead{
